@@ -1,4 +1,4 @@
-from database import SessionLocal
+from db.database import SessionLocal
 from sqlalchemy.exc import OperationalError
 from sqlalchemy import text
 
